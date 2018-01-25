@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/therohitramesh/todo-node.js/issues"
   },
-  "homepage": "https://github.com/therohitramesh/todo-node.js#readme"
+  "homepage": "https://github.com/therohitramesh/todo-node.js#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
