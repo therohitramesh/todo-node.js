@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/therohitramesh/todo-node.js#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2"
   }
