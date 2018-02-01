@@ -1,4 +1,5 @@
 var express = require('express');
+var todoController = require('./controllers/todoControllers')
 
 var app = express();
 
@@ -6,7 +7,10 @@ var app = express();
 app.set('view engine', 'ejs');
 
 //static files
-app.use(express.static('./public'));
+app.use(express.static('./public')); //isn't route specific now, applies to every url
+
+//fire controllers
+todoController(app);
 
 //listen to port
 app.listen(3000);
