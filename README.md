@@ -1,5 +1,5 @@
 # ToDo app
-##Made using Node.js
+## Made using Node.js
 
 Database: mongodb
 Framework: Node.js
@@ -10,5 +10,5 @@ node version: v8.9.4
 npm version: 5.6.0
 Run: ```npm install```
 
-##To execute:
+## To execute:
 ```node index.js```
